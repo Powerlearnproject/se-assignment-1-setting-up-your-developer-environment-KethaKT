@@ -1,19 +1,5 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/vbnbTt5m)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15286590&assignment_repo_type=AssignmentRepo)
-# Dev_Setup
-Setup Development Environment
-
-#Assignment: Setting Up Your Developer Environment
-
-#Objective:
-This assignment aims to familiarize you with the tools and configurations necessary to set up an efficient developer environment for software engineering projects. Completing this assignment will give you the skills required to set up a robust and productive workspace conducive to coding, debugging, version control, and collaboration.
-
-#Tasks:
-
-1. Select Your Operating System (OS):
-   Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11
-   
-    Clicked the  download option 
+   Question 1
+   Clicked the  download option 
 •  Install Windows 11:
 •	Upgrade Installation: Run the Upgrade Assistant to upgrade from Windows 10, preserving your files and apps.
 •	Clean Installation: Boot from the USB drive, follow prompts to install Windows 11, and optionally format your hard drive.
@@ -21,10 +7,7 @@ This assignment aims to familiarize you with the tools and configurations necess
 •  Install Drivers and Updates: After installation, install necessary drivers from manufacturers and check for Windows updates to ensure system security and performance.
 ![alt text](<Windows 11 update.PNG>) ![alt text](<update 2.PNG>)
 
-
-2. Install a Text Editor or Integrated Development Environment (IDE):
-   Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
-
+Question 2
 Click on the "Download for [Your Operating System]" button
 Clicked the download for the windows option which is the user installer x64 Arm64
 Install VS Code:
@@ -36,10 +19,8 @@ Windows: Once downloaded, run the installer (.exe file) and follow the prompts. 
 •	Use VS Code to write, edit, debug, and manage your code projects efficiently.
 ![alt text](<vs code installation.png>)
 
-3. Set Up Version Control System:
-   Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
-
-   Install Git:
+Question 3
+ Install Git:
 •	Windows:
 o	Run the downloaded .exe file.
 o	Follow the installation prompts. Use the default settings unless you have specific preferences.
@@ -60,9 +41,8 @@ git init
 •	Add files, commit changes, create branches, and interact with remote repositories as needed using Git commands.
 ![alt text](<vs code installation-2.png>) ![alt text](<git status.png>) ![alt text](<git status-1.png>) ![alt text](<git status-2.png>) ![alt text](<git status-3.png>) ![alt text](Repository.png) ![alt text](<git commit.png>)![alt text](<git hub project .png>) ![alt text](<git hub project -1.png>)
 
-4. Install Necessary Programming Languages and Runtimes:
-  Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
-  Install Python:
+Question 4
+Install Python:
 Windows:
 o	Run the downloaded installer (.exe file).
 o	Select "Add Python to PATH" during installation to make Python executable globally accessible.
@@ -76,18 +56,15 @@ o	Command Prompt or PowerShell on Windows.
 Check Python Version: Type python --version or python3 --version
 ![alt text](<python installation.png>) ![alt text](<python final install.png>) ![alt text](<python final install-1.png>)
 
-
-5. Install Package Managers:
-   If applicable, install package managers like pip (Python).
-
- Installing Python Packages with pip
+Question 5
+Installing Python Packages with pip
 	Verify pip Installation: Type pip --version.
 	Install a Package: Use pip install package-name, replacing package-name with the desired library.
    ![alt text](<python final install-2.png>)
   
-6. Configure a Database (MySQL):
-   Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
-   	Navigate to the Downloads Section:
+
+Question 6
+Navigate to the Downloads Section:
 o	Click on "Downloads" in the top menu.
 o	Choose "MySQL Community Edition" and select "MySQL Community Server".
 	Select Your Operating System:
@@ -128,8 +105,7 @@ o	Use Workbench to manage databases visually.
 ![alt text](<mySql workbench.png>) ![alt text](<my Sql workbench.png>) ![alt text](<my Sql command 2.png>) ![alt text](<Sql command.png>) ![alt text](<mySql install e.png>) ![alt text](<my Sql install 2.png>) ![alt text](<mySql install.png>)
 
 
-7. Set Up Development Environments and Virtualization (Optional):
-   Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
+Question 7
 Setting Up a Virtual Environment
 	Install virtualenv: pip install virtualenv
 	Create a Virtual Environment:
@@ -142,10 +118,8 @@ Installing an IDE
 	Configure the Python Interpreter: Follow the IDE's instructions to set Python as the interpreter.
 
 
-8. Explore Extensions and Plugins:
-   Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
-
-   Step 1: Identify Your Text Editor or IDE
+Question 8
+ Step 1: Identify Your Text Editor or IDE
 Choose the text editor or IDE you are using, such as Visual Studio Code (VS Code), PyCharm, Sublime Text, or Atom.
 Step 2: Access the Extension/Plugin/Add-on Marketplace
 	Visual Studio Code:
@@ -183,25 +157,3 @@ Step 5: Keep Extensions/Plugins/Add-ons Updated
 o	Ensure you are using the latest versions to benefit from new features and bug fixes.
 o	Most editors have an update mechanism within the extensions/plugins/add-ons manager.
 
-
-
-9. Document Your Setup:
-    Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
-    Please check document name: Answers A1
-
-#Deliverables:
-- Document detailing the setup process with step-by-step instructions and screenshots where necessary.
-- A GitHub repository containing a sample project initialized with Git and any necessary configuration files (e.g., .gitignore).
-- A reflection on the challenges faced during setup and strategies employed to overcome them.
-
-#Submission:
-Submit your document and GitHub repository link through the designated platform or email to the instructor by the specified deadline.
-
-#Evaluation Criteria:**
-- Completeness and accuracy of setup documentation.
-- Effectiveness of version control implementation.
-- Appropriateness of tools selected for the project requirements.
-- Clarity of reflection on challenges and solutions encountered.
-- Adherence to submission guidelines and deadlines.
-
-Note: Feel free to reach out for clarification or assistance with any aspect of the assignment.
